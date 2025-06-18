@@ -78,7 +78,7 @@ st.markdown("""
 
 # Inisialisasi Earth Engine
 @st.cache_resource
-def initialize_earth_engine():
+def initialize_earth_engine(project='ee-mrgridhoarazzak'):
     """Inisialisasi Google Earth Engine"""
     try:
         # Coba authenticate jika belum
