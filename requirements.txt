@@ -1,0 +1,4 @@
+geemap
+earthengine-api
+rasterio
+requests
