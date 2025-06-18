@@ -713,8 +713,8 @@ Map.addLayer(classified, {min:1, max:4, palette:['#228B22','#DAA520','#8B4513','
     st.markdown("---")
     st.markdown("""
     <div style="text-align: center; color: #666;">
-        <p>🛰️ Dashboard Klasifikasi Lahan Sangir - Powered by Google Earth Engine | 
+        <p>🛰️ Dashboard Klasifikasi Lahan Sangiqr - Powered by Google Earth Engine | 
         Built with ❤️ using Streamlit & geemap | 
         Data: Sentinel-2 SR via GEE</p>
     </div>
-    """, unsafe_allow
+    """, unsafe_allow_html=True)
